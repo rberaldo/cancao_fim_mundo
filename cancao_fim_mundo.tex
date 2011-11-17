@@ -15,7 +15,12 @@
 % *********************
 % CUSTOM COMMANDS %%%%%
 % *********************
-\newcommand{\data}[1]{\emph{#1}} % Sets a specific style for the date put in some chapters.
+\newcommand{\data}[1]{ 
+  \begin{flushright}
+  \emph{#1} 
+  \vspace{.5cm}
+  \end{flushright}
+} %Sets a specific style for the date put in some chapters.
 \newcommand{\espaco}[1]{\vspace{1cm}} % Sometimes I need space between parts of a chapter.
 
 

@@ -1,7 +1,7 @@
 % **************
 % PREAMBLE %%%%%
 % **************
-\documentclass[10pt,openright,draft,twoside,a4paper,article]{memoir}
+\documentclass[10pt,openany,twoside,a4paper,article]{memoir}
 \usepackage{fontspec}
   % Configuring fontspec
   \fontspec{Linux Libertine}
@@ -10,6 +10,13 @@
 \usepackage[english,portuguese]{babel}
 \usepackage{leading,graphicx,epstopdf,makeidx,microtype,lettrine}
 \makeindex
+
+% ********************
+% TITLE SETTINGS %%%%%
+% ********************
+\title{A Canção do Fim do Mundo}
+\author{Caio Oliveira}
+\date{2011}
 
 
 % *********************
@@ -36,6 +43,9 @@
 \begin{document}
 \setlength{\parskip}{1pt plus1pt minus1pt}
 \frenchspacing
+
+  % The title
+  \maketitle
 
   % The chapters
   \include{chapters/01_antes_tudo}
